@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caretakerpage</title>
+    <link rel="stylesheet" href="caretaker.css">
+    <link rel="icon" href="Images/logo.png">
+    <script src="https://kit.fontawesome.com/66fd2a570d.js" crossorigin="anonymous"></script>
+<body>
+    <div class="container">
+        <div class="left">
+            <h2>Welcome!!</h2>
+            <h3>[CARETAKER NAME]</h3>
+            <br>
+            <ul class="sidebar">
+                <a>VIEW ALL SCHEDULES</a><br>
+                <a>VIEW YOUR HISTORY</a><br>
+                <a href="caretakerAccount.html">ACCOUNT <i class="fa-solid fa-circle-exclamation fa-xl" style="color: #EE6F6F;"></i></a><br>
+                <a href="loginCareTaker.html">LOGOUT</a><br>
+                <a>HELP</a>
+            </ul>
+
+        </div>
+        <div class="right">
+            <h2>WELCOME TO <span class="name">CARE LINK</span></h2>
+            <img src="Images/logoNoBG.png" alt="logo">
+            <div id="rectangle">
+                <h2>YOUR HAVE GOT AN SCHEDULE!</h2>
+                <div class="rectangle">
+                    <ul>
+                        <li>CLIENT NAME: <span>[User Name]</span></li>
+                        <li>CLIENT CONTACT NO.: <span>[User Contact No.]</span></li>
+                        <li>CLIENT ADDRESS: <span>[User Address]</span></li>
+                        <li>ROLE: <span>[Baby Sitting]</span></li>
+                        <li>DURATION: <span>10AM to 5PM</span></li>
+                    </ul>
+                    <button class="button1" onclick="moveToCTaccept()">ACCEPT</button>
+                    <button class="button2" onclick="moveToCTreject()">REJECT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

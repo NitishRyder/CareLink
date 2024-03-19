@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Link - CareTaker LogIn</title>
+    <link rel="stylesheet" href="LoginNSignup.css">
+    <link rel="icon" href="Images/logo.png">
+</head>
+<body>
+    <div class="container">
+        <div class="Left-Banner">
+            <h1>WELCOME TO <span style="color: #FFF8E1;">CARE LINK</span></h1>
+            <h3>YOUR LINK TO TRUSTED CARE</h3>
+            <img src="Images/caretaker-login.png" alt="SkyVaultLogo">
+        </div>
+        <div>
+            <div class="LoginForm">
+                <h1>Log In as Care Taker</h1>
+                <label for="mailID">Enter You Mail ID</label><br><br>
+                <input type="email" name="MailID" placeholder="Enter Your Mail ID"><br><br>
+                <label for="Password">Enter Your Password</label>
+                <span id="viewBTN">view</span><br><br>
+                <input type="password" id="password"  name="Password" placeholder="Enter Your Password"><br><br>
+                <a id="ForgotPwdBTN" href="">Forgot Password ?</a><br><br>
+                <button id="LoginBTN" onclick="move2CareTakerHome()">Login</button>
+                <p id="SignUpTag">Don't have an Accout? <a id="SignUpLink" href="signupCareTaker.html">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

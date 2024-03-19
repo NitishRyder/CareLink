@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Link- User SignUp</title>
+    <link rel="stylesheet" href="LoginNSignup.css">
+    <link rel="icon" href="Images/logo.png">
+    <script src="https://kit.fontawesome.com/66fd2a570d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="Left-Banner">
+            <h1>WELCOME TO <span style="color: #FFF8E1;">CARE LINK</span></h1>
+            <h3>YOUR LINK TO TRUSTED CARE</h3>
+            <img src="Images/user-signup.png" alt="SkyVaultLogo">
+        </div>
+        <div>
+            <div class="SignUpForm">
+                <h1>Sign Up as User</h1>
+                <label for="mailID">Enter You Mail ID</label><br><br>
+                <input type="email" name="GoogleMailID" placeholder="Enter Your Mail ID"><br><br>
+                <label for="Password">Enter Your Password</label>
+                <span id="viewBTN">view</span><br><br>
+                <input type="password" id="password" name="GooglePassword" placeholder="Enter Your Password"><br><br><br>
+                <button id="SignUpBTN" onclick="movetoUserPage()">Sign Up</button>
+                <p id="LogInTag">Already have an Accout? <a id="LogInLink" href="loginUser.html">Log In</a></p><br>
+                <button id="GoogleSignUp"><i class="fa-brands fa-google fa-sm" style="color: #ededed;"></i> &nbsp; Login with Google</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

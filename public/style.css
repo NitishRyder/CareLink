@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #FFF8E1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    margin: 2% 5%;
+    height: auto;
+    width: auto;
+}
+
+.navlinks {
+    margin: 3%;
+}
+
+.navLinks a {
+    color: #000000;
+    font-family: Montserrat;
+    text-decoration: none;
+    margin: 5% 50px;
+    font-size: 1.2rem;
+}
+
+.navlinks button {
+    color: #FFF8E1;
+    background-color: #000000;
+    font-family: Montserrat;
+    padding: 15px 35px;
+    margin: 0px 30px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.navLinks a:hover {
+    text-decoration: underline;
+}
+
+.navlinks button:hover {
+    cursor: pointer;
+}
+
+.content {
+    font-family: Montserrat;
+    text-align: center;
+    justify-content: center;
+}
+
+.content h1 {
+    margin-top: 15px;
+    font-size: 3.5rem;
+}
+
+.content h4 {
+    font-size: 2rem;
+    margin: 0% 10%;
+    font-weight: 500;
+}
+
+.content button {
+    font-family: Montserrat;
+    background-color: #F1C85B;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2% 5%;
+    width: 500px;
+    height: 55px;
+    border: none;
+}
+
+.content button:hover {
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+@media only screen and (max-width: 768px) {
+    .header img {
+        margin: 5%;
+        height: 50px;
+        width: auto;
+    }
+}

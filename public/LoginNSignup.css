@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    background-color: #FFF8E1;
+    font-family: Montserrat;
+}
+
+.container{
+    display: flex;
+}
+
+
+.left-Banner{
+    justify-self: center;
+    text-align: center;
+    height: 650px;
+    width: 45%;
+    background-color: #F1C85B;
+}
+
+.left-Banner img{
+    margin-top: 50px;
+    width: 350px;
+    height: auto;
+}
+
+.left-Banner h1{
+    margin-top: 80px;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #EDEDED;
+}
+
+.left-Banner h3, .SignUpForm h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0% 10%; 
+    color: #FFF8E1;
+}
+
+.LoginForm,.SignUpForm{
+    align-items: center;
+    height: 500px;
+}
+
+.LoginForm h1,.SignUpForm h1{
+    margin: 80px;
+    color: #F1C85B;
+    text-align: center;
+}
+
+.LoginForm label,.SignUpForm label{
+    text-align: left;
+    justify-content: left;
+    color: #F1C85B;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 150px;
+}
+
+.LoginForm input, .SignUpForm input {
+    height: 50px;
+    width: 60%;
+    margin-left: 150px;
+    font-size: 1.3rem;
+    padding-left: 20px;
+    border: 2px solid #F1C85B;
+    background-color: #EDEDED;
+    color: #6F6F6F;
+}
+
+
+#viewBTN{
+    margin-left: 190px;
+    text-decoration: none;
+    color: #F1C85B;
+    font-weight: 600;
+}
+
+#ForgotPwdBTN{
+    margin-left: 450px;
+    text-decoration: none;
+    color: #F1C85B;
+    font-weight: 600;
+}
+
+#LogInLink{
+    color: #F1C85B;
+}
+
+.LoginForm button,.SignUpForm button{
+    margin-left: 150px;
+    height: 50px;
+    width: 60%;
+    border: none;
+    color: #EDEDED;
+    background-color: #F1C85B;
+    font-size: 1.5rem;
+}
+
+.LoginForm button:hover ,.SignUpForm button:hover{
+    cursor: pointer;
+}
+
+#SignUpTag{
+    margin-left: 200px;
+}
+
+#LogInTag{
+    margin-left: 190px;
+}
+
+#SignUpTag,#LogInTag{
+    color: #6F6F6F;
+    font-size: 20px;
+    margin-right: 230px;
+    text-align: center;
+}
+
+#SignUpLink{
+    color: #F1C85B;
+    text-decoration: none;
+}
+
+#SignUpLink:hover, #viewBTN:hover, #ForgotPwdBTN:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

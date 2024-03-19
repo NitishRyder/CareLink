@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    background-color: #F1C85B;
+}
+#detailsBG{
+    text-align: left;
+    justify-content: left;
+    margin: 70px 300px;
+    background-color: #FFF8E1;
+    font-family: Montserrat;
+}
+
+.detailsUser{
+    margin: 70px 300px;
+    background-color: #FFF8E1;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+}
+
+#detailsBG h1{
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+#detailsBG h2{
+    margin-left: 50px;
+}
+
+#selectService{
+    margin: 70px 300px;
+    text-align: center;
+    justify-content: center;
+    background-color: #FFF8E1;
+    font-family: Montserrat;
+}
+
+#selectService img{
+    margin: 30px;
+}
+
+#selectService button, #submit-btn{
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    color: #000000;
+    background-color: #F1C85B;
+    border: none;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+}
+
+
+#selectService button:hover{
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+#return{
+    color: #000000;
+    text-decoration: none;
+    margin: 50px;
+}
+
+#icon-tick{
+    margin: 30px;
+}
+
+#return:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.babysitterDetails{
+    display: flex;
+    margin: 10px 50px;
+}
+.center{
+    text-align: center;
+    justify-content: center;
+}
+
+.timing{
+    display: flex;
+    margin-left: 150px;
+}

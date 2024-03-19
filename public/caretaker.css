@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    height: 705px;
+    width: 30%;
+    background: rgba(241, 200, 91);
+    padding: 20px;
+}
+
+.right {
+    height: 705px;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 20px 20px 20px 60px;
+}
+
+.left h2 {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.left h3 {
+    margin-left: 40px;
+}
+
+.sidebar {
+    margin-left: 0;
+    list-style: none;
+    line-height: 5;
+    margin-top: 60px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+.name {
+    color: rgba(241, 200, 91);
+}
+
+img {
+    position: absolute;
+    top: 3%;
+    right: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+#rectangle {
+    margin-left: 30px;
+    margin-top: 160px;
+    width: 90%;
+    height: 440px;
+    border: 3px solid black;
+}
+
+#rect{
+    margin-left: 30px;
+    margin-top: 160px;
+    width: 90%;
+    height: 440px;
+    border: 3px solid black;
+    text-align: center;
+    justify-content: center;
+}
+
+.fa-solid{
+    margin-top: 40px;
+}
+
+.rect-head{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    color: #EE6F6F;
+}
+
+#rect h3{
+    margin: 10px 100px;
+}
+
+#rect button{
+    height: 70px;
+    width: 500px;
+    background-color: F1C85B;
+    color: #000000;
+    background-color: #F1C85B;
+    border: none;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#rect button:hover{
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: rgb(40, 166, 5);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.rectangle {
+    margin-left: 84px;
+    margin-top: 10px;
+    width: 80%;
+    height: 300px;
+    border: 3px solid rgba(241, 200, 91);
+}
+
+.rectangle ul {
+    margin-top: 40px;
+    list-style: none;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.rectangle span {
+    color: rgba(241, 200, 91);
+}
